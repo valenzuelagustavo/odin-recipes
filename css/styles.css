@@ -1,0 +1,63 @@
+*{
+    background-color: darkslategray;
+}
+
+div{
+    font-size: large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.contenedor {
+    display: flex; /* Usamos Flexbox para alinear las imágenes */
+    justify-content: center; /* Centramos las imágenes horizontalmente */
+    gap: 10px; /* Separación mínima entre las imágenes */
+    padding: 20px; /* Opcional: Añadir padding alrededor del contenedor */
+}
+.contenedor img {
+    height: 200px;
+    max-width: 200px; /* Ajusta el tamaño máximo de las imágenes */
+    border: 1px solid #ccc; /* Opcional: Añadir un borde a las imágenes */
+    border-radius: 5px; /* Opcional: Añadir bordes redondeados */
+}
+
+.card-body{
+    border-radius: 10px;
+    border-style:inset;
+    max-width: 50%;
+   
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+    display:block;
+}
+
+p{
+    color:azure;
+}
+
+h1{
+    color:black;
+}
+
+ul{
+    color:azure;
+    list-style-type: none;
+}
+
+ol{
+    color:azure;
+}
+
+.recipes-selector{
+    font-size: 64px;
+    text-align: center;
+    display: block;
+    outline: 2px solid rgb(50, 29, 29);
+    padding: 5px;
+    border-radius: 4px;
+    background-color: gray;
+}
